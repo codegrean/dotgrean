@@ -1,0 +1,5 @@
+[github]
+	user = johndoe
+[user]
+	email = john.doe@example.com
+	name = "John Doe"

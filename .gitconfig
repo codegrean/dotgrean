@@ -1,0 +1,15 @@
+[alias]
+	aliases=!git config -l | grep '^alias' | cut -c 7- | sort
+	aa = add --all
+	b  = branch
+	c  = commit
+	co = checkout
+	ri = rebase --interactive
+	s  = status
+	t  = log --graph --oneline --decorate --color
+[fetch]
+	prune = true
+[rebase]
+	autosquash = true
+[include]
+	path = ~/.gitconfig.local
